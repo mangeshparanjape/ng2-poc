@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import "md-theme";
+
+.fill-remaining-space {
+  // This fills the remaining space, by using flexbox.
+  // Every toolbar row uses a flexbox row layout.
+  flex: 1 1 auto;
+}
+
+.our-toolbar {
+  top: 0px;
+  box-shadow: 0 2px 5px 0 md-color($accent);
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 50px;
+}
