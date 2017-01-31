@@ -1,0 +1,4 @@
+sa-docker-poc:
+  image: $DTR/poc/ng-poc:$GIT_COMMIT
+  ports:
+    - "4200:4200"
