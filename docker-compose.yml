@@ -1,4 +1,4 @@
-version: "1"
+version: "2.0"
 services:
   sa-docker-poc:
     image: mangeshp16/mangeshp16/sa-docker-poc:1.0
