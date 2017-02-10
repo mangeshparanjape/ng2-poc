@@ -1,4 +1,4 @@
 sa-docker-poc:
-  image: $DTR/poc/ng-poc:08f02ba6b96a29a242aec4121cc7752d2f5d5aa5
+  image: mangeshp16/mangeshp16/sa-docker-poc:1.0
   ports:
     - "4200:4200"
